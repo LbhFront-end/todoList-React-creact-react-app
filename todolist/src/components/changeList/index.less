@@ -1,0 +1,169 @@
+//主色
+@mainColor:#e4af0a;
+@titleColor:#464646;
+@timeContentColor:#737373;
+@borderColor:#c9c9c9;
+//changeList
+.changeList{
+    margin-top: 40px;
+    width: 700px;
+    .headPosition{
+        width: 700px;
+        .left{
+            .leftBack-icon{
+                img{
+                    width: 24px;
+                    height: 41px;
+                }
+            }
+            .leftBack-text{
+                margin-left: 20px;
+                p{
+                    letter-spacing: 4px;
+                    font-weight: 700;
+                    font-size: 36px;
+                    color:@mainColor;
+                }
+            }
+        }
+        .right{
+            p{
+                font-weight: 700;
+                letter-spacing: 2px;
+                font-size: 36px;
+                color:@mainColor;
+            }
+        }
+    }
+    .textTitle{
+        margin-top: 40px;
+         width: 700px;
+        .smallHead{
+            p{
+                font-size: 36px;
+                color:@titleColor;
+                font-weight: 700;
+            }
+        }
+        .textTitle-input{
+            margin-top: 10px;
+            input{
+                width: 700px;
+                height: 65px;
+                border-radius: 20px;
+                border:3px solid @borderColor;
+                color: @timeContentColor;
+            }
+        }
+    }
+    .textContent{
+        margin-top: 20px;
+         width: 700px;
+         position: relative;
+        .smallHead{
+            p{
+                font-size: 36px;  
+                color:@titleColor;
+                font-weight: 700;              
+            }
+        }
+        .textContent-input{
+            margin-top: 10px;
+            width: 700px;
+            border-radius: 20px;
+            border:3px solid @borderColor;
+            color: @timeContentColor;
+            textarea{
+                width: 700px;
+                height: 300px;
+                font-size: 30px;
+                border:none;
+                color: @timeContentColor;
+                background: rgba(0,0,0,0);
+                appearance: none;
+                text-indent: 10px;
+            }
+            p{
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                font-size: 17px;
+                color:#737373;
+            }
+        }
+    }
+    .textTime{
+        margin-top: 20px;
+         width: 700px;
+        .smallHead{
+            p{
+                color:@titleColor;
+                font-size: 36px;  
+                font-weight: 700;                
+            }
+        }
+        .textTime-input{
+            margin-top: 10px;
+            height: 65px;
+            border-radius: 20px;
+            border:3px solid @borderColor;
+            width: 700px;
+            // 框架相关
+            .am-list-body{
+                background: rgba(0,0,0,0);
+                .modal-input{     
+                    width: 600px;
+                    margin-left: 10px;
+                    color: @timeContentColor;
+                    // 框架相关
+                    .am-list-item{
+                        background: rgba(0,0,0,0);
+                        align-items:left;
+                        .am-list-line{
+                            width: 600px;
+                            -webkit-box-align:left;
+                            -webkit-align-items:left;
+                            -ms-flex-align:left;
+                            align-items:left;
+                            .am-list-extra{
+                                flex-basis:100%;
+                                -webkit-flex-basis:100%;
+                                width: 600px;
+                                text-align: left;
+                                font-size: 30px;
+                                color: @timeContentColor;
+                            }
+                            .am-list-arrow-horizontal{
+                                visibility:hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    input{
+        border:none;
+        background: rgba(0,0,0,0);
+        appearance: none;
+        text-indent: 10px;
+    }
+        // 底部功能键
+        .bottomFunction{
+            position: fixed;
+            bottom: 30px;
+            width: 700px;  
+            .f1{
+                img{
+                    width: 36px;
+                    height: 32px;
+                }
+            }
+            .f2{
+                img{
+                    width: 49px;
+                    height: 35px;
+                }
+            }
+        }
+}

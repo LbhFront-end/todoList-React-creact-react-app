@@ -1,0 +1,175 @@
+//主色
+@mainColor:#e4af0a;
+@titleColor:#464646;
+@timeContentColor:#737373;
+@borderColor:#c9c9c9;
+
+// index
+.index{
+    width: 700px;
+    // 筛选
+    .choice{
+        position: relative;
+        width: 700px;
+        margin-top: 40px;
+        color:@mainColor;
+        font-size: 48px;
+        a{
+            color:@mainColor;
+            font-size: 48px;
+        }
+        select{
+            border:none;
+            background: rgba(0,0,0,0);
+            text-align: center;
+            option{
+                border:none;
+                text-align: center;
+                color:@mainColor;
+                font-size: 48px;
+            }
+        }
+        .icon-select{
+            position: absolute;
+            left: 150px;
+            top: 0;
+            label{
+                img{
+                    width: 25px;
+                    height: 15px;
+                }
+            }           
+        }
+    }
+    // 标题
+    .title{
+        margin-top: 40px;
+        width: 700px;
+        p{
+            font-size: 72px;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+    // 事件列表
+    .lists{
+        margin-top: 20px;
+        width: 700px;        
+        // 单个列表
+        .list-border{
+            margin-top: 20px;
+            width: 700px;
+            height: 120px;
+            border-radius: 20px;
+            border:3px solid @borderColor;
+            &:hover{
+                box-shadow: 1px 1px 5px #999;
+            }
+            .list{
+                width: 660px;
+                height: 100px;                
+                // 主标题+时间
+                .titlesTime{
+                    width: 660px;
+                    .titles{
+                        p{
+                            font-size: 36px;
+                            color: @titleColor;
+                        }
+                    }
+                    .time{
+                        p{
+                            font-size: 30px;
+                            color: @timeContentColor;
+                        }
+                    }
+                }
+                // 主要内容
+                .content{
+                    width: 660px;
+                    margin-top: 10px;
+                    .text{
+                        p{
+                            font-size: 30px;
+                            color: @timeContentColor;
+                        }
+                    }
+                    .edit-delect{
+                        .edit{     
+                            margin-right: 40px;                   
+                            img{
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                        .delect{
+                            img{
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .finishT{
+             border:3px solid #7bc4dc;
+        }
+        .overT{
+             border:3px solid #dc7b86;
+        }
+    }
+    .tip{
+        margin-top: 100px;
+        font-size: 24px;
+        color:rgb(67, 43, 122);
+    }
+    // 底部功能键
+    .bottomFunction{
+        position: fixed;
+        bottom: 30px;
+        width: 700px;  
+        .f1{
+            img{
+                width: 42px;
+                height: 42px;
+            }
+        }
+        .note{
+            p{
+                font-size: 24px;
+                color:#000;
+            }
+        }
+        .f2{
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+// 弹出comfirm框
+.am-modal-wrap {
+    .am-modal{
+        width: 8rem;
+        .am-modal-content{
+            .am-modal-header{
+                .am-modal-title{
+                    font-size: 32px;
+                }
+            }
+            .am-modal-body{
+                font-size: 24px;
+            }
+            .am-modal-footer{
+                .am-modal-button{
+                    height: 0.8rem;
+                    line-height: 0.8rem;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}
+

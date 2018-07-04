@@ -1,0 +1,133 @@
+.index {
+  width: 700px;
+}
+.index .choice {
+  position: relative;
+  width: 700px;
+  margin-top: 40px;
+  color: #e4af0a;
+  font-size: 48px;
+}
+.index .choice a {
+  color: #e4af0a;
+  font-size: 48px;
+}
+.index .choice select {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.index .choice select option {
+  border: none;
+  text-align: center;
+  color: #e4af0a;
+  font-size: 48px;
+}
+.index .choice .icon-select {
+  position: absolute;
+  left: 150px;
+  top: 0;
+}
+.index .choice .icon-select label img {
+  width: 25px;
+  height: 15px;
+}
+.index .title {
+  margin-top: 40px;
+  width: 700px;
+}
+.index .title p {
+  font-size: 72px;
+  font-weight: 600;
+  color: #000;
+}
+.index .lists {
+  margin-top: 20px;
+  width: 700px;
+}
+.index .lists .list-border {
+  margin-top: 20px;
+  width: 700px;
+  height: 120px;
+  border-radius: 20px;
+  border: 3px solid #c9c9c9;
+}
+.index .lists .list-border:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+.index .lists .list-border .list {
+  width: 660px;
+  height: 100px;
+}
+.index .lists .list-border .list .titlesTime {
+  width: 660px;
+}
+.index .lists .list-border .list .titlesTime .titles p {
+  font-size: 36px;
+  color: #464646;
+}
+.index .lists .list-border .list .titlesTime .time p {
+  font-size: 30px;
+  color: #737373;
+}
+.index .lists .list-border .list .content {
+  width: 660px;
+  margin-top: 10px;
+}
+.index .lists .list-border .list .content .text p {
+  font-size: 30px;
+  color: #737373;
+}
+.index .lists .list-border .list .content .edit-delect .edit {
+  margin-right: 40px;
+}
+.index .lists .list-border .list .content .edit-delect .edit img {
+  width: 30px;
+  height: 30px;
+}
+.index .lists .list-border .list .content .edit-delect .delect img {
+  width: 30px;
+  height: 30px;
+}
+.index .lists .finishT {
+  border: 3px solid #7bc4dc;
+}
+.index .lists .overT {
+  border: 3px solid #dc7b86;
+}
+.index .tip {
+  margin-top: 100px;
+  font-size: 24px;
+  color: #432b7a;
+}
+.index .bottomFunction {
+  position: fixed;
+  bottom: 30px;
+  width: 700px;
+}
+.index .bottomFunction .f1 img {
+  width: 42px;
+  height: 42px;
+}
+.index .bottomFunction .note p {
+  font-size: 24px;
+  color: #000;
+}
+.index .bottomFunction .f2 img {
+  width: 40px;
+  height: 40px;
+}
+.am-modal-wrap .am-modal {
+  width: 8rem;
+}
+.am-modal-wrap .am-modal .am-modal-content .am-modal-header .am-modal-title {
+  font-size: 32px;
+}
+.am-modal-wrap .am-modal .am-modal-content .am-modal-body {
+  font-size: 24px;
+}
+.am-modal-wrap .am-modal .am-modal-content .am-modal-footer .am-modal-button {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 32px;
+}
