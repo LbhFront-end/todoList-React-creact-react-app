@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'react-flexible';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
